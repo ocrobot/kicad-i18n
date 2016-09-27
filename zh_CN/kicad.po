@@ -928,7 +928,7 @@ msgstr "Launchpad上的开发者网站"
 
 #: common/dialog_about/AboutDialog_main.cpp:163
 msgid "Repository with additional component libraries"
-msgstr "树莓派(还有额外的元件库)"
+msgstr "资源库和额外的元件库"
 
 #: common/dialog_about/AboutDialog_main.cpp:170
 msgid "Contribute to KiCad"
