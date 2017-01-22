@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-24 16:25+0800\n"
-"PO-Revision-Date: 2016-05-19 23:27+0800\n"
+"PO-Revision-Date: 2017-01-22 15:36+0800\n"
 "Last-Translator: 郝弘毅 <togker@gmail.com>\n"
 "Language-Team: ocrobot team <togker@gmail.com>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: _;_HKI\n"
 "X-Poedit-Basepath: ../../../../Downloads/kicad\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.11\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 3d-viewer/3d_canvas.cpp:389
@@ -1781,7 +1781,7 @@ msgstr "写入快捷键配置文件："
 
 #: common/hotkeys_basic.cpp:817
 msgid "&List Current Keys"
-msgstr "列出当前快捷键(&L)"
+msgstr "当前快捷键(&L)"
 
 #: common/hotkeys_basic.cpp:818
 msgid "Displays the current hotkeys list and corresponding commands"
@@ -19193,7 +19193,7 @@ msgstr "电路板另存为..."
 
 #: pcbnew/menubar_pcbframe.cpp:130
 msgid "Sa&ve Copy As..."
-msgstr "另存复制为(&V)..."
+msgstr "另存为(&V)..."
 
 #: pcbnew/menubar_pcbframe.cpp:132
 msgid "Save a copy of the current board as..."
@@ -19265,11 +19265,11 @@ msgstr "为生成加工文件"
 
 #: pcbnew/menubar_pcbframe.cpp:185
 msgid "&Specctra Session"
-msgstr "自动布线器Session文件"
+msgstr "自动布线文件(&S)"
 
 #: pcbnew/menubar_pcbframe.cpp:186
 msgid "Import a routed \"Specctra Session\" (*.ses) file"
-msgstr "导入一个已经自动布线的 \"Specctra Session\" (*.ses) 文件"
+msgstr "导入自动布线的 \"Specctra Session\" (*.ses) 文件"
 
 #: pcbnew/menubar_pcbframe.cpp:190
 msgid "&DXF File"
@@ -19285,11 +19285,11 @@ msgstr "导入文件"
 
 #: pcbnew/menubar_pcbframe.cpp:203
 msgid "&Specctra DSN"
-msgstr "自动布线器DSN"
+msgstr "自动布线DSN文件"
 
 #: pcbnew/menubar_pcbframe.cpp:204
 msgid "Export the current board to a \"Specctra DSN\" file"
-msgstr "将当前电路板导出为 \"Specctra DSN\" 文件"
+msgstr "将当前电路板导出为 \"自动布线DSN文件\" "
 
 #: pcbnew/menubar_pcbframe.cpp:208
 msgid "&GenCAD"
@@ -19712,7 +19712,7 @@ msgstr "打开设计规则编辑器"
 
 #: pcbnew/menubar_pcbframe.cpp:640
 msgid "&Layers Setup"
-msgstr "层建立"
+msgstr "&图层设置"
 
 #: pcbnew/menubar_pcbframe.cpp:640
 msgid "Enable and set layer properties"
@@ -22363,7 +22363,7 @@ msgstr "选择覆铜层对："
 
 #: pcbnew/dialogs/dialog_layers_setup_base.h:418
 msgid "Layer Setup"
-msgstr "层创建"
+msgstr "图层设置"
 
 #: pcbnew/dialogs/dialog_mask_clearance_base.h:74
 msgid "Pads Mask Clearance"
