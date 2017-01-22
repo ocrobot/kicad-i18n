@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-24 16:25+0800\n"
-"PO-Revision-Date: 2017-01-22 15:36+0800\n"
+"PO-Revision-Date: 2017-01-22 16:46+0800\n"
 "Last-Translator: 郝弘毅 <togker@gmail.com>\n"
 "Language-Team: ocrobot team <togker@gmail.com>\n"
 "Language: zh_CN\n"
@@ -4159,7 +4159,7 @@ msgstr "在选定的库后面添加一个新的库，并且加载它"
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:43
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:90 pcbnew/class_module.cpp:613
 msgid "Insert"
-msgstr "页脚"
+msgstr "插入"
 
 #: eeschema/dialogs/dialog_eeschema_config_fbp.cpp:44
 msgid "Add a new library before the selected library, and load it"
@@ -6748,11 +6748,11 @@ msgstr "打开一个最近打开过的 原理图 工程"
 
 #: eeschema/menubar.cpp:103
 msgid "App&end Schematic Sheet"
-msgstr "添加原理图页(&E)"
+msgstr "添加原理图(&E)"
 
 #: eeschema/menubar.cpp:104
 msgid "Append schematic sheet to current project"
-msgstr "追加原理图表到当前工程"
+msgstr "追加原理图到当前工程"
 
 #: eeschema/menubar.cpp:109
 msgid "&Save Schematic Project"
@@ -6760,7 +6760,7 @@ msgstr "保存原理图工程"
 
 #: eeschema/menubar.cpp:113
 msgid "Save all sheets in schematic project"
-msgstr "保存原理图工程中的所有sheet"
+msgstr "保存原理图工程中的所有页面"
 
 #: eeschema/menubar.cpp:118
 msgid "Save &Current Sheet Only"
@@ -6768,7 +6768,7 @@ msgstr "只保存当前图纸"
 
 #: eeschema/menubar.cpp:119
 msgid "Save only current schematic sheet"
-msgstr "仅保存当前原理图sheet"
+msgstr "仅保存当前原理图"
 
 #: eeschema/menubar.cpp:126
 msgid "Save C&urrent Sheet As"
@@ -6784,7 +6784,7 @@ msgstr "页面设置(&g)"
 
 #: eeschema/menubar.cpp:136
 msgid "Setting for sheet size and frame references"
-msgstr "sheet尺寸和框图索引设置"
+msgstr "设置纸张尺寸与参考框架"
 
 #: eeschema/menubar.cpp:141
 msgid "Pri&nt"
@@ -6792,11 +6792,11 @@ msgstr "打印(&N)"
 
 #: eeschema/menubar.cpp:142
 msgid "Print schematic sheet"
-msgstr "打印原理图sheet"
+msgstr "打印原理图"
 
 #: eeschema/menubar.cpp:148 eeschema/menubar.cpp:160
 msgid "&Plot"
-msgstr "绘图输出(&Plot)"
+msgstr "绘图输出(&P)"
 
 #: eeschema/menubar.cpp:149
 msgid "Plot schematic sheet in PostScript, PDF, SVG, DXF or HPGL format"
@@ -6866,11 +6866,11 @@ msgstr "显示分层导航(&H)"
 
 #: eeschema/menubar.cpp:250
 msgid "Navigate hierarchical sheets"
-msgstr "sheet分层导航"
+msgstr "导航层次表单"
 
 #: eeschema/menubar.cpp:253
 msgid "&Leave Sheet"
-msgstr "离开(&L)Sheet"
+msgstr "离开页面(&L)"
 
 #: eeschema/menubar.cpp:264
 msgid "&Component"
@@ -22052,7 +22052,7 @@ msgstr "重新执行最后的命令"
 
 #: eeschema/help_common_strings.h:45
 msgid "Fit schematic sheet on screen"
-msgstr "原理图sheet在屏幕适应大小显示"
+msgstr "原理图适应屏幕大小"
 
 #: eeschema/help_common_strings.h:46
 msgid "Redraw schematic view"
