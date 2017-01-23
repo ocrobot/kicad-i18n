@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-24 16:25+0800\n"
-"PO-Revision-Date: 2017-01-22 20:17+0800\n"
+"PO-Revision-Date: 2017-01-23 12:23+0800\n"
 "Last-Translator: 郝弘毅 <togker@gmail.com>\n"
 "Language-Team: ocrobot team <togker@gmail.com>\n"
 "Language: zh_CN\n"
@@ -6780,7 +6780,7 @@ msgstr "当前原理图另存为..."
 
 #: eeschema/menubar.cpp:135
 msgid "Pa&ge Settings"
-msgstr "页面设置(&g)"
+msgstr "页面设置(&G)"
 
 #: eeschema/menubar.cpp:136
 msgid "Setting for sheet size and frame references"
@@ -6834,7 +6834,7 @@ msgstr "查找和替换(&P)"
 
 #: eeschema/menubar.cpp:207
 msgid "Import Footprint Selection"
-msgstr "导入脚本选项"
+msgstr "导入组件封装"
 
 #: eeschema/menubar.cpp:229 eeschema/menubar_libedit.cpp:161
 #: eeschema/tool_viewlib.cpp:225 pcbnew/menubar_modedit.cpp:216
@@ -6890,11 +6890,11 @@ msgstr "总线(&B)"
 
 #: eeschema/menubar.cpp:288
 msgid "Wire to Bus &Entry"
-msgstr "导线到总线项(&E)"
+msgstr "导线到总线入口(&E)"
 
 #: eeschema/menubar.cpp:294
 msgid "Bus &to Bus Entry"
-msgstr "总线连接到(&t)总线项"
+msgstr "总线到总线入口(&T)"
 
 #: eeschema/menubar.cpp:300
 msgid "&No Connect Flag"
@@ -6914,27 +6914,27 @@ msgstr "全局标签(&O)"
 
 #: eeschema/menubar.cpp:324
 msgid "&Hierarchical Label"
-msgstr "层次分类标签(&H)"
+msgstr "分级标签(&H)"
 
 #: eeschema/menubar.cpp:331
 msgid "Hierarchical &Sheet"
-msgstr "分级图纸(&S)"
+msgstr "图纸入口(&S)"
 
 #: eeschema/menubar.cpp:339
 msgid "I&mport Hierarchical Label"
-msgstr "导入分层标签(&M)"
+msgstr "从分级标签导入(&M)"
 
 #: eeschema/menubar.cpp:345
 msgid "Hierarchical Pi&n to Sheet"
-msgstr "分层引脚到Sheet"
+msgstr "分级引脚到分图(&N)"
 
 #: eeschema/menubar.cpp:351
 msgid "Graphic Pol&yline"
-msgstr "图形折线(&y)"
+msgstr "虚线(&Y)"
 
 #: eeschema/menubar.cpp:357
 msgid "&Graphic Text"
-msgstr "图形(&G)文本"
+msgstr "文本(&G)"
 
 #: eeschema/menubar.cpp:364
 msgid "&Image"
@@ -8242,7 +8242,7 @@ msgstr "降序/升序分层"
 
 #: eeschema/tool_sch.cpp:251 eeschema/help_common_strings.h:90
 msgid "Add bitmap image"
-msgstr "添加bitmap图片"
+msgstr "添加位图"
 
 #: eeschema/tool_sch.cpp:277
 msgid "Set unit to inch"
@@ -22040,7 +22040,7 @@ msgstr "工程还原助手"
 
 #: eeschema/dialogs/dialog_sch_edit_sheet_pin_base.h:56
 msgid "Sheet Pin Properties"
-msgstr "sheet引脚属性"
+msgstr "引脚属性"
 
 #: eeschema/dialogs/dialog_sch_sheet_props_base.h:60
 msgid "Schematic Sheet Properties"
@@ -22110,7 +22110,7 @@ msgstr ""
 msgid ""
 "Place a hierarchical label. Label will be seen as a hierarchical pin in the sheet "
 "symbol"
-msgstr "放置层次标签。标签将被视为表单符号中的分层引脚。"
+msgstr "放置分级标签。标签将被视为分图标识中的分级引脚。"
 
 #: eeschema/help_common_strings.h:68
 msgid "Place junction"
@@ -22118,15 +22118,15 @@ msgstr "放置节点"
 
 #: eeschema/help_common_strings.h:69
 msgid "Create hierarchical sheet"
-msgstr "创建分层sheet"
+msgstr "创建图纸入口"
 
 #: eeschema/help_common_strings.h:71
 msgid "Place hierarchical pin imported from the corresponding hierarchical label"
-msgstr "放置导入自关联分层标签的分层引脚"
+msgstr "从相应的分级标签倒入分级引脚"
 
 #: eeschema/help_common_strings.h:72
 msgid "Place hierarchical pin in sheet"
-msgstr "在sheet中放置分层引脚"
+msgstr "在分图中放置分级引脚"
 
 #: eeschema/help_common_strings.h:73
 msgid "Place graphic lines or polygons"
