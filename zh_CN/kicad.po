@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kicad zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-24 16:25+0800\n"
-"PO-Revision-Date: 2017-01-23 12:23+0800\n"
+"PO-Revision-Date: 2017-01-24 12:47+0800\n"
 "Last-Translator: 郝弘毅 <togker@gmail.com>\n"
 "Language-Team: ocrobot team <togker@gmail.com>\n"
 "Language: zh_CN\n"
@@ -8794,12 +8794,12 @@ msgstr "可见性"
 #: gerbview/menubar.cpp:157 gerbview/options.cpp:89 pcbnew/pcbnew_config.cpp:80
 #: pcbnew/tool_pcb.cpp:806
 msgid "Hide &Layers Manager"
-msgstr "隐藏层管理器(&L)"
+msgstr "隐藏图层管理器(&L)"
 
 #: gerbview/events_called_functions.cpp:382 gerbview/menubar.cpp:157
 #: gerbview/options.cpp:89 pcbnew/pcbnew_config.cpp:80 pcbnew/tool_pcb.cpp:806
 msgid "Show &Layers Manager"
-msgstr "显示层管理器(&L)"
+msgstr "显示图层管理器(&L)"
 
 #: gerbview/excellon_read_drill_file.cpp:189
 msgid "No room to load file"
@@ -8913,7 +8913,7 @@ msgstr "机械层 (*GMx)|*.GM1;*.gm1;*.GM2;*.gm2;*.GM3;*.gm3|"
 
 #: gerbview/files.cpp:137
 msgid "Top Pad Master (*.GPT)|*.GPT;*.gpt|"
-msgstr "顶层 焊盘阻焊层 (*.GPT)|*.GPT;*.gpt|"
+msgstr "顶层 焊盘 (*.GPT)|*.GPT;*.gpt|"
 
 #: gerbview/files.cpp:138
 msgid "Bottom Pad Master (*.GPB)|*.GPB;*.gpb|"
@@ -19516,7 +19516,7 @@ msgstr "交互式布单线导线"
 
 #: pcbnew/menubar_pcbframe.cpp:446
 msgid "&Differential Pair"
-msgstr "差分(&D)对"
+msgstr "差分线(&D)"
 
 #: pcbnew/menubar_pcbframe.cpp:447
 msgid "Interactively route a differential pair"
@@ -19548,27 +19548,27 @@ msgstr "调整差分对的偏移/相位"
 
 #: pcbnew/menubar_pcbframe.cpp:501
 msgid "&3D Shapes Libraries Downloader"
-msgstr "&3D形状库下载器"
+msgstr "3D图形库下载器(&3)"
 
 #: pcbnew/menubar_pcbframe.cpp:502
 msgid "Download from Github the 3D shape libraries with wizard"
-msgstr "用向导从 Github 下载3D图形库"
+msgstr "通过向导从 Github 下载3D图形库"
 
 #: pcbnew/menubar_pcbframe.cpp:509
 msgid "Hide La&yers Manager"
-msgstr "隐藏层(&y)管理器"
+msgstr "隐藏图层管理器(&Y)"
 
 #: pcbnew/menubar_pcbframe.cpp:509
 msgid "Show La&yers Manager"
-msgstr "显示层管理器(&Y)"
+msgstr "显示图层管理器(&Y)"
 
 #: pcbnew/menubar_pcbframe.cpp:515
 msgid "Hide Microwa&ve Toolbar"
-msgstr "隐藏Microwave(&v)工具栏条"
+msgstr "隐藏微波应用工具栏(&V)"
 
 #: pcbnew/menubar_pcbframe.cpp:515 pcbnew/pcbnew_config.cpp:90 pcbnew/tool_pcb.cpp:795
 msgid "Show Microwave Toolbar"
-msgstr "显示Microwave工具栏"
+msgstr "显示微波应用工具栏"
 
 #: pcbnew/menubar_pcbframe.cpp:524
 msgid "&General"
@@ -19628,7 +19628,7 @@ msgstr "调整焊盘和阻焊的全局间距设置"
 
 #: pcbnew/menubar_pcbframe.cpp:560
 msgid "&Differential Pairs"
-msgstr "差分(&D)对"
+msgstr "差分线(&D)"
 
 #: pcbnew/menubar_pcbframe.cpp:561
 msgid "Define the global gap/width for differential pairs."
@@ -19688,7 +19688,7 @@ msgstr "执行设计规则检查操作"
 
 #: pcbnew/menubar_pcbframe.cpp:622
 msgid "&FreeRoute"
-msgstr "＆FreeRoute(自动布线软件)"
+msgstr "FreeRoute自动布线软件(&F)"
 
 #: pcbnew/menubar_pcbframe.cpp:623
 msgid "Fast access to the web based FreeROUTE advanced router"
@@ -19724,7 +19724,7 @@ msgstr "显示KiCad关于窗口"
 
 #: pcbnew/menubar_pcbframe.cpp:668
 msgid "Ro&ute"
-msgstr "布线(&u)"
+msgstr "布线(&U)"
 
 #: pcbnew/menubar_pcbframe.cpp:670
 msgid "D&imensions"
@@ -20001,7 +20001,7 @@ msgstr "Arc Stub"
 
 #: pcbnew/muonde.cpp:612 pcbnew/muonde.cpp:630
 msgid "Create microwave module"
-msgstr "创建microwave模块"
+msgstr "创建微波模块"
 
 #: pcbnew/muonde.cpp:629
 msgid "Angle in degrees:"
@@ -20057,7 +20057,7 @@ msgstr "间距："
 
 #: pcbnew/muonde.cpp:1068
 msgid "Create Microwave Gap"
-msgstr "创建Microwave间距"
+msgstr "创建微波间隙"
 
 #: pcbnew/muwave_command.cpp:64
 #, fuzzy
@@ -20065,19 +20065,16 @@ msgid "Add Gap"
 msgstr "添加间距"
 
 #: pcbnew/muwave_command.cpp:68
-#, fuzzy
 msgid "Add Stub"
-msgstr "添加 Stub"
+msgstr "添加短截线"
 
 #: pcbnew/muwave_command.cpp:72
-#, fuzzy
 msgid "Add Arc Stub"
-msgstr "添加 Arc Stub"
+msgstr "添加弧形短截线"
 
 #: pcbnew/muwave_command.cpp:76
-#, fuzzy
 msgid "Add Polynomial Shape"
-msgstr "添加 Polynomial Shape"
+msgstr "添加复合形状"
 
 #: pcbnew/netlist.cpp:176
 msgid "Components"
@@ -20743,7 +20740,7 @@ msgstr ""
 
 #: pcbnew/pcbnew_config.cpp:90 pcbnew/tool_pcb.cpp:795
 msgid "Hide Microwave Toolbar"
-msgstr "隐藏Microwave工具栏"
+msgstr "隐藏微波工具栏"
 
 #: pcbnew/pcbnew_config.cpp:446
 msgid "Save Macros File"
@@ -21367,23 +21364,23 @@ msgstr "显示本地飞线"
 
 #: pcbnew/tool_pcb.cpp:503
 msgid "Create line of specified length for microwave applications"
-msgstr "为microwave应用创建指定长度的线"
+msgstr "为微波应用创建指定长度的线"
 
 #: pcbnew/tool_pcb.cpp:508
 msgid "Create gap of specified length for microwave applications"
-msgstr "为microwave应用创建指定长度的线间距"
+msgstr "为微波应用创建指定长度的间隙"
 
 #: pcbnew/tool_pcb.cpp:515
 msgid "Create stub of specified length for microwave applications"
-msgstr "为microwave应用创建指定长度的Stub"
+msgstr "为微波应用创建指定长度的短截线"
 
 #: pcbnew/tool_pcb.cpp:520
 msgid "Create stub (arc) of specified length for microwave applications"
-msgstr "为microwave应用创建指定长度的Stub(圆弧)"
+msgstr "为微波应用创建指定长度的短截线(弧形)"
 
 #: pcbnew/tool_pcb.cpp:525
 msgid "Create a polynomial shape for microwave applications"
-msgstr "为microwave应用创建polynomial形状"
+msgstr "为微波应用创建复合形状"
 
 #: pcbnew/tool_pcb.cpp:578
 msgid ""
@@ -22442,7 +22439,7 @@ msgid ""
 "Show/hide the microwave toolbar\n"
 "This is a experimental feature (under development)"
 msgstr ""
-"显示/隐藏microwave工具栏\n"
+"显示/隐藏微波工具栏\n"
 "这是一个试验特性(开发中)"
 
 #: pcbnew/import_dxf/dialog_dxf_import_base.h:72
